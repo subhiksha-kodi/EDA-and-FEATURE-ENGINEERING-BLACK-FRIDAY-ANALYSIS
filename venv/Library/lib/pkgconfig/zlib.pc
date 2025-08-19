@@ -1,0 +1,13 @@
+prefix=D:/AI WORKFORCE/EDA AND FE PROJECT (BLACK FRIDAY ANALYSIS)/venv/Library
+exec_prefix=D:/AI WORKFORCE/EDA AND FE PROJECT (BLACK FRIDAY ANALYSIS)/venv/Library
+libdir=D:/AI WORKFORCE/EDA AND FE PROJECT (BLACK FRIDAY ANALYSIS)/venv/Library/lib
+sharedlibdir=D:/AI WORKFORCE/EDA AND FE PROJECT (BLACK FRIDAY ANALYSIS)/venv/Library/lib
+includedir=D:/AI WORKFORCE/EDA AND FE PROJECT (BLACK FRIDAY ANALYSIS)/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
