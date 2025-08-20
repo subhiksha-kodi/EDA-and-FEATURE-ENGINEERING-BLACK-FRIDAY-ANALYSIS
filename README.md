@@ -33,6 +33,23 @@ It includes **EDA, preprocessing, feature engineering, and encoding techniques**
 - **Stay_In_Current_City_Years** → Converted to integer  
 - **Product_Category_2/3** → Missing values filled using **mode**  
 
+📊 **Visualizations**:
+
+- **Purchase by Age & Gender**  
+  ![Purchase vs Age](plots/Age_purchase.png)
+
+- **Pairplot of Features**  
+  ![Pairplot](plots/pairplot.png)
+
+- **Purchase by Product Category 1**  
+  ![Product Category 1](plots/Productcategory1_purchase.png)
+
+- **Purchase by Product Category 2**  
+  ![Product Category 2](plots/Productcategory2_purchase.png)
+
+- **Purchase by Product Category 3**  
+  ![Product Category 3](plots/Productcategory3_purchase.png)
+
 ---
 
 ## ⚙️ Techniques Used
@@ -60,5 +77,3 @@ It includes **EDA, preprocessing, feature engineering, and encoding techniques**
 - Apply **hyperparameter tuning**  
 - Evaluate using **RMSE, MAE, R²**  
 - Perform **feature selection & importance analysis**  
-
----
